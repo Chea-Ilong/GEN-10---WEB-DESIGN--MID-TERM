@@ -1,0 +1,44 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(5,1fr);
+ width: 800px;
+ 
+
+}
+ .container div{
+    padding: 20px;
+ }
+.green{
+  
+  color: aliceblue;
+font-weight: bold;
+  background-color: green;
+}
+
+.white {
+
+  background-color: white;
+}
+
+ .Gray {
+
+  background-color: rgb(177, 174, 174);
+}
+
